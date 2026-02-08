@@ -1,0 +1,16 @@
+Elenco clienti azienda ACME SRL
+
+1) Mario Rossi
+   Email: mario.rossi@email.it
+   Telefono: 3331234567
+   Città: Cesena
+
+2) Laura Bianchi
+   Email: laura.bianchi@email.it
+   Telefono: 3399876543
+   Città: Bologna
+
+3) Giovanni Verdi
+   Email: giovanni.verdi@email.it
+   Telefono: 3201122334
+   Città: Rimini
