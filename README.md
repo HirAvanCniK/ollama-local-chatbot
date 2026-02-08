@@ -11,7 +11,7 @@ Il chatbot è progettato per essere **sicuro, conciso e leggibile**, e supporta 
 - `.pptx`
 - Altri tipi di file di testo riconoscibili
 
-Il modello AI utilizzato è configurato tramite Ollama e può essere scelto tra modelli **testuali veloci**, come **qwen-7b** o **Mistral 7B**, garantendo risposte rapide e affidabili.
+Il modello AI utilizzato è configurato tramite Ollama e può essere scelto tra modelli **testuali veloci**, come **llama**, **Mistral** o **qwen**, garantendo risposte rapide e affidabili.
 
 ---
 
@@ -97,7 +97,6 @@ ollama-local-chatbot/
 
 1. Posiziona tutti i tuoi file di dati nella cartella `data/`.
 2. Esegui il chatbot: `python main.py`
-
 3. Inserisci le domande nel prompt.
 4. La risposta verrà stampata in **Markdown leggibile** in console, tramite `rich`.
 
