@@ -37,8 +37,9 @@ FORMATTING:
 - Maintain clean and minimal Markdown formatting.
 
 MISSING INFORMATION:
-- If the answer cannot be derived with absolute certainty from the given data, respond ONLY with:
+- If the answer cannot be derived with absolute certainty from the given data, respond ONLY with the translation of:
   "I dati forniti non sono sufficienti per rispondere a questa domanda."
+  in the language specified in {BOT_LANGUAGE}.
 
 FINAL OUTPUT:
 - Output ONLY the final answer.
