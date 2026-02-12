@@ -6,6 +6,7 @@ from PyPDF2 import PdfReader
 from docx import Document
 from pptx import Presentation
 
+# -------------------- Global Variables --------------------
 DATA_DIR = "data"
 MODEL_NAME = "llama3.1"
 BOT_LANGUAGE = "Italian"
@@ -38,7 +39,7 @@ def read_pptx(path):
                 text.append(shape.text)
     return "\n".join(text)
 
-# -------------------- Funzione principale di caricamento con barra di avanzamento --------------------
+# -------------------- Funzione di caricamento con barra di avanzamento --------------------
 def load_data():
     # Raccogli prima tutti i file validi da processare
     files_to_process = []
@@ -55,7 +56,7 @@ def load_data():
     
     texts = []
     
-    # Barra di avanzamento avanzata con tempo e file corrente
+    # Barra di avanzamento con tempo e file corrente
     with Progress(
         SpinnerColumn(style="cyan"),
         TextColumn("[bold blue]{task.description}"),
