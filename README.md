@@ -1,5 +1,27 @@
 # 📘 Chatbot AI per dataset locali
 
+![Python](https://img.shields.io/badge/python-3.10+-blue) ![Status](https://img.shields.io/badge/status-active-success) ![LLM](https://img.shields.io/badge/LLM-llama3.1-orange)
+
+
+## 📑 Indice
+- [📘 Chatbot AI per dataset locali](#-chatbot-ai-per-dataset-locali)
+  - [📑 Indice](#-indice)
+  - [Descrizione del progetto](#descrizione-del-progetto)
+  - [Motivazione](#motivazione)
+  - [Funzionalità principali](#funzionalità-principali)
+  - [Installazione](#installazione)
+    - [1. Clona il progetto](#1-clona-il-progetto)
+    - [2. Creare un ambiente virtuale (consigliato)](#2-creare-un-ambiente-virtuale-consigliato)
+    - [3. Installare i requisiti Python](#3-installare-i-requisiti-python)
+  - [Struttura del progetto](#struttura-del-progetto)
+  - [Uso](#uso)
+  - [Configurazione del chatbot](#configurazione-del-chatbot)
+  - [Sicurezza e regole](#sicurezza-e-regole)
+  - [Requisiti](#requisiti)
+  - [Motivazioni aggiuntive](#motivazioni-aggiuntive)
+  - [Riferimenti](#riferimenti)
+
+
 ## Descrizione del progetto
 
 Questo progetto implementa un **chatbot AI locale** che può rispondere a qualsiasi domanda **solo utilizzando i dati presenti in dataset forniti**.
@@ -136,7 +158,7 @@ Questo progetto è pensato per:
 - Scenari in cui **i dati non possono essere inviati a servizi cloud**
 - Applicazioni dove la **chiarezza, concisione e leggibilità** delle risposte sono fondamentali
 
-# Riferimenti
+## Riferimenti
 - Ollama [github.com/ollama/ollama](https://github.com/ollama/ollama)
 - Prompt Engineering [www.promptingguide.ai](https://www.promptingguide.ai)
 - LLM [en.wikipedia.org/wiki/Large_language_model](https://en.wikipedia.org/wiki/Large_language_model)

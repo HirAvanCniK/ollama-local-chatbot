@@ -2,6 +2,7 @@ import os, subprocess, time
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TimeElapsedColumn
+from rich.panel import Panel
 from PyPDF2 import PdfReader
 from docx import Document
 from pptx import Presentation
@@ -126,7 +127,10 @@ def main():
     if not context.strip():
         return
 
-    console.print("\n[bold green]✨ Pronto per le tue domande![/bold green]\n")
+    console.print(Panel.fit(
+        f"[bold cyan]{BOT_NAME}[/bold cyan]\nModel: {MODEL_NAME}\nLanguage: {BOT_LANGUAGE}\n[bold green]✨ Pronto per le tue domande![/bold green]",
+        border_style="cyan"
+    ))
 
     while True:
         question = input("❓ Domanda (scrivi 'exit' per uscire): ")
